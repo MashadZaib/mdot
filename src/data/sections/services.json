@@ -5,43 +5,55 @@
         "items": [
             {
                 "num": "01",
-                "name": "Dedicated Team",
+                "name": "Brand Consultancy",
                 "icon": "img/icons/md/1.svg",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
                 "num": "02",
-                "name": "QA and Testing",
+                "name": "Digital Marketing",
                 "icon": "img/icons/md/2.svg",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
                 "num": "03",
-                "name": "SaaS",
+                "name": "Personal Portfolio Management",
                 "icon": "img/icons/md/3.svg",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+                "num": "04",
+                "name": "Integrations",
+                "icon": "img/icons/md/13.svg",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         ]
     },
     "column2": {
-        "heading": "IT Solutions",
+        "heading": "IT Services",
         "items": [
             {
-                "num": "04",
-                "name": "Blockchain",
+                "num": "05",
+                "name": "Seo",
                 "icon": "img/icons/md/4.svg",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
-                "num": "05",
-                "name": "Artificial Intelligence",
+                "num": "06",
+                "name": "Hire Resource",
                 "icon": "img/icons/md/5.svg",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
-                "num": "06",
-                "name": "Internet of Things",
+                "num": "07",
+                "name": "Content Marketing",
                 "icon": "img/icons/md/6.svg",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+                "num": "08",
+                "name": "Cybersafe",
+                "icon": "img/icons/md/25.svg",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         ]

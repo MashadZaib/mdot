@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { getSortedPostsData } from "../lib/posts";
 import { getSortedProjectsData } from "../lib/projects";
 
-import PartnersSection from "../components/sections/Partners";
+
 import ServicesSection from "../components/sections/Services";
 import HowItWorksSection from "../components/sections/HowItWorks";
 import SkillsSection from "../components/sections/Skills";
@@ -21,7 +21,6 @@ const Home1 = (props) => {
   return (
     <Layouts transparent>
       <HeroSlideshowSlider />
-      <PartnersSection />
       <Divider />
       <ServicesSection />
       <Divider />
@@ -30,7 +29,7 @@ const Home1 = (props) => {
       <SkillsSection />
       <Divider />
       <LatestPostsSlider posts={props.posts} />
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       <ContactSection />
     </Layouts>
   );
