@@ -1,5 +1,6 @@
 import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Link from "next/link";
 const Service2Steps = () => {
   return (
     <section className="mil-deep-bg mil-p-120-0">

@@ -34,7 +34,7 @@ const LatestProjects = ( {projects} ) => {
           {...sliderProps.latestProjectSlider}
           className="swiper-container mil-works-slider mil-mb-90"
         >
-          {projects.slice(0, SectionData.numOfItems).map((item, key) => (
+          {projects?.slice(0, SectionData.numOfItems).map((item, key) => (
           <SwiperSlide className="swiper-slide">
             <Link href="project" className="mil-card">
               <div className="mil-cover-frame">

@@ -4,47 +4,13 @@ const Service1 = () => {
   return (
     <Layouts footer={2}>
       <PageBanner
-        pageName={"Service"}
-        pageTitle={"SaaS development services"}
+        pageName={"Services"}
+        pageTitle={"Services and Solutions"}
       />
       {/* call to action */}
-      <section className="mil-p-120-90">
-        <div
-          className="mil-deco"
-          style={{ bottom: 0, right: "25%", transform: "rotate(180deg)" }}
-        />
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8">
-              <div className="mil-hori-box mil-mb-30">
-                <div className="mil-mr-30">
-                  <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg">
-                    <img src="img/icons/md/1.svg" alt="icon" />
-                  </div>
-                </div>
-                <h5>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqu
-                  quis ipsum suspendisse ultrices gravida.
-                </h5>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="mil-adaptive-right">
-                <a href="#." className="mil-button mil-border mil-mb-30">
-                  <span>Get in Touch</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* call to action end */}
-      <div className="container">
-        <div className="mil-divider" />
-      </div>
-      {/* steps */}
-      <section className="mil-p-120-90">
+    
+    
+      <section className="mil-p-90-90">
         <div
           className="mil-deco"
           style={{ bottom: 0, right: "35%", transform: "rotate(180deg)" }}
@@ -52,11 +18,9 @@ const Service1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-                Services and Solutions
-              </span>
+             
               <h2 className="mil-mb-30">
-                Our SaaS Development Services Let You Win Big
+                Our Development Services Let You Win Big
               </h2>
               <p className="mil-dark">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -71,7 +35,7 @@ const Service1 = () => {
                 <div className="mil-number-icon mil-circle mil-mb-30">
                   <span>01</span>
                 </div>
-                <h4 className="mil-mb-15">SaaS Development Consulting</h4>
+                <h4 className="mil-mb-15">Brand Consultancy</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -84,7 +48,7 @@ const Service1 = () => {
                 <div className="mil-number-icon mil-lines mil-mb-30">
                   <span>02</span>
                 </div>
-                <h4 className="mil-mb-15">SaaS Design and Prototyping</h4>
+                <h4 className="mil-mb-15">Digital Marketing</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -97,7 +61,7 @@ const Service1 = () => {
                 <div className="mil-number-icon mil-mb-30">
                   <span>03</span>
                 </div>
-                <h4 className="mil-mb-15">End-to-End SaaS Development</h4>
+                <h4 className="mil-mb-15">Personal Portfolio Management</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -110,7 +74,7 @@ const Service1 = () => {
                 <div className="mil-number-icon mil-mb-30">
                   <span>04</span>
                 </div>
-                <h4 className="mil-mb-15">Migration to SaaS</h4>
+                <h4 className="mil-mb-15">Seo</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -123,7 +87,7 @@ const Service1 = () => {
                 <div className="mil-number-icon mil-circle mil-mb-30">
                   <span>05</span>
                 </div>
-                <h4 className="mil-mb-15">Third Party Integrations</h4>
+                <h4 className="mil-mb-15">Hire Resource</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -136,7 +100,33 @@ const Service1 = () => {
                 <div className="mil-number-icon mil-lines mil-mb-30">
                   <span>06</span>
                 </div>
-                <h4 className="mil-mb-15">SaaS Support and Maintenance</h4>
+                <h4 className="mil-mb-15">Content Marketing</h4>
+                <p>
+                  Dissuade ecstatic and properly saw entirely sir why laughter
+                  endeavor. In on my jointure horrible margaret suitable he
+                  followed speedily.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-4">
+              <div className="mil-mb-60">
+                <div className="mil-number-icon mil-lines mil-mb-30">
+                  <span>07</span>
+                </div>
+                <h4 className="mil-mb-15">Integrations</h4>
+                <p>
+                  Dissuade ecstatic and properly saw entirely sir why laughter
+                  endeavor. In on my jointure horrible margaret suitable he
+                  followed speedily.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-4">
+              <div className="mil-mb-60">
+                <div className="mil-number-icon mil-lines mil-mb-30">
+                  <span>08</span>
+                </div>
+                <h4 className="mil-mb-15">Cybersafe</h4>
                 <p>
                   Dissuade ecstatic and properly saw entirely sir why laughter
                   endeavor. In on my jointure horrible margaret suitable he
@@ -166,74 +156,8 @@ const Service1 = () => {
       <div className="container">
         <div className="mil-divider" />
       </div>
-      {/* next step */}
-      <section className="mil-p-120-0">
-        <div className="container">
-          <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-              Safeguard Modern
-            </span>
-            <h2>Ready To Take The Next Step?</h2>
-          </div>
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="mil-hover-card mil-mb-30">
-                <h4 className="mil-mb-30">Get a Live Demo</h4>
-                <p className="mil-mb-30">
-                  Dissuade ecstatic and properly saw entirely sir why laughter
-                  endeavor. In on my jointure horrible margaret suitable he
-                  followed speedily. Indeed vanity excuse or mr lovers of on.
-                </p>
-                <a href="#." className="mil-link">
-                  <span>Request a Free Demo</span>
-                  <i className="fas fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="mil-hover-card mil-mb-30">
-                <h4 className="mil-mb-30">Start Now</h4>
-                <p className="mil-mb-30">
-                  Dissuade ecstatic and properly saw entirely sir why laughter
-                  endeavor. In on my jointure horrible margaret suitable he
-                  followed speedily. Indeed vanity excuse or mr lovers of on.
-                </p>
-                <a href="#." className="mil-link">
-                  <span>Get In Touch</span>
-                  <i className="fas fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* next step end */}
-      {/* partners */}
-      <div className="mil-partners mil-partners-spaces">
-        <div className="container">
-          <div className="mil-partners-frame">
-            <a href="#.">
-              <img src="img/partners/1.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/2.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/3.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/4.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/5.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/6.png" alt="partner" />
-            </a>
-          </div>
-        </div>
-      </div>
-      {/* partners end */}
+  
+ 
       <div className="container">
         <div className="mil-divider" />
       </div>
@@ -248,8 +172,8 @@ const Service1 = () => {
             High Quality and Performance
           </span>
           <h2 className="mil-mb-90">
-            Our Approach To <span className="mil-accent">SaaS Software</span>{" "}
-            Development
+            Our Approach To <span className="mil-accent">Development</span>{" "}
+            
           </h2>
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-6 col-xl-6">
@@ -369,26 +293,12 @@ const Service1 = () => {
               </div>
             </div>
           </div>
-          <div className="row align-items-center">
-            <div className="col-md-6 col-xl-6">
-              <a href="#." className="mil-button mil-border mil-mb-30">
-                <span>Talk To Our SaaS Experts</span>
-              </a>
-            </div>
-            <div className="col-md-6 col-xl-6">
-              <div className="mil-adaptive-right">
-                <a href="#." className="mil-link mil-mb-30">
-                  <span>See More</span>
-                  <i className="fas fa-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </section>
       {/* services end */}
       {/* services */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="mil-gradient-bg mil-deco-right mil-p-90-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: 0, left: "5%" }}
